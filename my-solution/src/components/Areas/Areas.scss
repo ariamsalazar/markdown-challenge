@@ -1,0 +1,19 @@
+@import '../../assets/variables.scss';
+
+.input {
+  width: 44%;
+  padding: 1rem;
+  background-color: $white;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px 0 rgba(176, 174, 174, 0.2);
+  border-right: 1px solid #bbb;
+  &__textarea {
+    width: 100%;
+    display: inline-block;
+    overflow-y: scroll;
+    border: none;
+    height: calc(100vh - 130px);
+    font-size: 12px;
+    outline: none;
+  }
+}

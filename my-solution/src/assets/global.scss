@@ -1,0 +1,25 @@
+@import '../assets/variables.scss';
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  font-family: $font-main;
+}
+
+p {
+  display: inline-block;
+}
+
+.container {
+  height: calc(100% - 60px);
+  margin-top: 60px;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: $gray-soft;
+}

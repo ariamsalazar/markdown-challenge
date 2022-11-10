@@ -1,0 +1,23 @@
+@import '../../assets/variables.scss';
+
+.header {
+  background-color: $primary;
+  font-weight: 400;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  color: $white;
+  padding: 0 1rem;
+  align-items: center;
+  display: flex;
+  height: 60px;
+  top: 0;
+  &__title {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: left;
+    color: $white;
+    margin-left: 10px;
+  }
+}
